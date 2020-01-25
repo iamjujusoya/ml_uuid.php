@@ -6,7 +6,7 @@ $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://decoderhack.com/api.php');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS, "uuid=0&serial=0&timestamp=0");
+curl_setopt($ch, CURLOPT_POSTFIELDS, "uuid=0&serial=ac12c803decb2e72&timestamp=0");
 
 $headers = array();
 $headers[] = 'Content-Type: application/x-www-form-urlencoded';
