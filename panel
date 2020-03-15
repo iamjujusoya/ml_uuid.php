@@ -3,10 +3,10 @@
 
 $ch = curl_init();
 
-curl_setopt($ch, CURLOPT_URL, 'https://decoderhack.com/change');
+curl_setopt($ch, CURLOPT_URL, '');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS, "uuid=04fc001c846334e342b84a17465d1059&serial=90d307f39a02d6a6&timestamp=0&serial=c422a962da2a64c1");
+curl_setopt($ch, CURLOPT_POSTFIELDS, "uuid=04fc001c846334e342b84a17465d1059&serial=90d307f39a02d6a6&timestamp=0");
 
 $headers = array();
 $headers[] = 'Content-Type: application/x-www-form-urlencoded';
